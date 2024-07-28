@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<div id="uploaddiv" style="align-content: center">
+    <h3 style="margin-left: 70px;font-family: Poppins; font-size: 35px;">Upload a Image sample</h3>
+    <form id="upload-file" method="post" enctype="multipart/form-data">
+        <label for="imageUpload" class="upload-label">
+            Upload
+        </label>
+        
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+    </form>
+    <div class="image-section" style="display:none;">
+        <div class="img-preview">
+            <div id="imagePreview">
+        </div>
+    </div>
+        <div>
+           <button type="button" class="btn btn-primary btn-lg " id="btn-predict" style="margin-left: 15%;">Predict!
+                <style="margin-left: 15%;"="">
+
+            </style="margin-left:></button>
+        </div>
+</div>
+    
+<div class="loader" style="display:none;margin-left: 15%;"></div>
+    
+<h2 id="result" style="margin-left: 10%;">
+    <span> </span>
+</h2>
+</div>
+
+
+
+{% endblock %}    
