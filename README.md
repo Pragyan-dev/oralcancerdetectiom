@@ -45,7 +45,6 @@ oralcancerdetectiom/
 └─ LICENSE                       # License for the project
 ```
 
-> *Note:* Adjust the folders and files to match your actual structure.
 
 ---
 
